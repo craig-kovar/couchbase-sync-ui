@@ -1,0 +1,9 @@
+jdbc.driverClassName=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://###C360_MYSQL_HOST###:3306/###MYSQL_DATABASE###?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+jdbc.username=###MYSQL_USER###
+jdbc.password=###MYSQL_PASSWORD###
+
+# REST api to get product recommendation
+products.api.url=http://localhost:8081/api/cards/product-recommendation
+
+customer.api.url=http://localhost:8081/api/cards/customers
